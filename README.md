@@ -48,11 +48,14 @@ This creates a Finder-clickable app bundle at `dist/FileTransferApp.app`.
 
 - Entitlements: `appstore/AppStore.entitlements`
 - Build App Store package: `scripts/build_app_store_pkg.sh`
-- Guide: `guides/APP_STORE_RELEASE.md`
+- Upload the generated `.pkg` via Transporter or Xcode Organizer.
 
 ## GitHub Push
 
-- Guide: `guides/GITHUB_PUSH.md`
+- Push with:
+  - `git remote add origin <repo-url>`
+  - `git branch -M main`
+  - `git push -u origin main`
 
 ## Notes
 
