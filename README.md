@@ -44,12 +44,6 @@ This creates a Finder-clickable app bundle at `dist/FileTransferApp.app`.
 6. Use `New Folder` on the local pane to create a folder, then rename it in the prompt.
 7. Check transfer output in the log panel at the bottom.
 
-## App Store Prep
-
-- Entitlements: `appstore/AppStore.entitlements`
-- Build App Store package: `scripts/build_app_store_pkg.sh`
-- Upload the generated `.pkg` via Transporter or Xcode Organizer.
-
 ## GitHub Push
 
 - Push with:
