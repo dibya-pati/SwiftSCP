@@ -2,10 +2,6 @@
 
 Basic macOS SwiftUI app for transferring files between local and remote hosts over SSH using `scp`.
 
-## Screenshot
-
-![SwiftSCP Screenshot](assets/images/swiftscp-screenshot.png)
-
 ## Features
 
 - Save named SSH connections (host/port/username/auth mode).
