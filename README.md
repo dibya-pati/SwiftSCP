@@ -4,7 +4,7 @@ Basic macOS SwiftUI app for transferring files between local and remote hosts ov
 
 ## Screenshot
 
-![SwiftSCP Screenshot](docs/images/swiftscp-screenshot.png)
+![SwiftSCP Screenshot](assets/images/swiftscp-screenshot.png)
 
 ## Features
 
@@ -52,11 +52,11 @@ This creates a Finder-clickable app bundle at `dist/FileTransferApp.app`.
 
 - Entitlements: `appstore/AppStore.entitlements`
 - Build App Store package: `scripts/build_app_store_pkg.sh`
-- Guide: `docs/APP_STORE_RELEASE.md`
+- Guide: `guides/APP_STORE_RELEASE.md`
 
 ## GitHub Push
 
-- Guide: `docs/GITHUB_PUSH.md`
+- Guide: `guides/GITHUB_PUSH.md`
 
 ## Notes
 
