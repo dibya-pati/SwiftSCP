@@ -2,7 +2,7 @@
 set -euo pipefail
 
 APP_NAME="FileTransferApp"
-BUNDLE_ID="com.dibya.filetransferapp"
+BUNDLE_ID="com.example.swiftscp"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DIST_DIR="$ROOT_DIR/dist"
 APP_DIR="$DIST_DIR/${APP_NAME}.app"
