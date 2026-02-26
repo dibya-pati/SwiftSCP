@@ -1,0 +1,17 @@
+# SwiftPM
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode/macOS
+.DS_Store
+*.xcworkspace
+*.xcuserstate
+DerivedData/
+
+# Local artifacts
+dist/
+
+# Editor
+.vscode/
+.idea/
