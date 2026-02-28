@@ -44,15 +44,3 @@ This creates a Finder-clickable app bundle at `dist/FileTransferApp.app`.
 6. Use `New Folder` on the local pane to create a folder, then rename it in the prompt.
 7. Check transfer output in the log panel at the bottom.
 
-## GitHub Push
-
-- Push with:
-  - `git remote add origin <repo-url>`
-  - `git branch -M main`
-  - `git push -u origin main`
-
-## Notes
-
-- Passwords are never stored.
-- Only key *paths* are saved.
-- The app shells out to `/usr/bin/scp` and `/usr/bin/ssh`.
